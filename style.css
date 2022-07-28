@@ -17,6 +17,9 @@ h1 {
 h2 {
     font-size: 3vw;
 }
+h3 {
+    font-size: 2vw;
+}
 button {
     background-color: #b92727;
     border: none;
@@ -73,3 +76,64 @@ nav {
     width: 100%;
 }
 /* Middle area CSS */
+.middle-area {
+    padding: 5vh 0;
+    color: #fff;
+}
+.middle-top {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    padding: 10vh 0;
+}
+.single-mid-top {
+    background: #2b2828;
+    margin: 2vw;
+    padding: 2vw;
+}
+.single-mid-top:nth-child(2) {
+    background: #b92727;
+    color: #fff;
+}
+.single-mid-top:nth-child(2) a{
+    color: #fff;
+}
+.single-mid-top:nth-child(2) .mid-icon{
+    color: #fff;
+}
+.single-mid-top a {
+    color: #b92727;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.single-mid-top .arrow {
+    margin-left: .5vw;
+}
+.single-mid-top .mid-icon {
+    font-size: 5vw;
+    color: #b92727;
+}
+.middle-bottom {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10vh 0;
+}
+.bottom-left {
+    width: 30%;
+}
+.bottom-left h1 {
+    color:#b92727;
+    margin: 0;
+}
+.bottom-right {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.single-bottom {
+    background-color: #2b2828;
+    margin: 1vw;
+}
+.single-bottom h2 {
+    color:#b92727;
+}
