@@ -192,3 +192,8 @@ nav {
 .contact-intro button {
     margin-right: 10vw;
 }
+/* Bottom Menu Area CSS */
+#bottom-menu {
+    padding: 2vw 5%;
+    text-align: center;
+}
