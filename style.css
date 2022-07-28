@@ -137,3 +137,41 @@ nav {
 .single-bottom h2 {
     color:#b92727;
 }
+/* Projects Area CSS */
+.projects-area {
+    padding: 5vh 0;
+}
+.projects-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 5vh 0;
+}
+.all-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.single-projects img {
+    width: 100%;
+}
+.single-projects {
+    margin: 2vw;
+    background-color: #2b2828;
+    padding: 5vw 1vw;
+}
+.project-dtl {
+    color: #fff;
+    margin: 0 2vw;
+}
+.project-dtl h3 {
+    margin: 0;
+}
+.project-dtl a {
+    color: #b92727;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.project-dtl .arrow {
+    margin-left: .5vw;
+}
