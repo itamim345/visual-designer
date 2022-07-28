@@ -197,3 +197,24 @@ nav {
     padding: 2vw 5%;
     text-align: center;
 }
+/* Footer area CSS */
+#footer {
+    padding: 3vw 5%;
+    background-color: #2b2828;
+}
+.footer-area {
+    display: flex;
+    align-items: center;
+}
+.footer-area .logo {
+    width: 50%;
+}
+.footer-area .logo img {
+    width: 8vw;
+}
+.social-icon a {
+    text-decoration: none;
+    margin: 0 1vw;
+    color: #fff;
+}
+
