@@ -76,6 +76,9 @@ nav {
     width: 100%;
 }
 /* Middle area CSS */
+#middle {
+    background: linear-gradient(90deg, rgba(24,24,24,1) 50%, rgba(17,17,17,1) 50%);
+}
 .middle-area {
     padding: 5vh 0;
     color: #fff;
