@@ -12,13 +12,16 @@ body {
     margin: 0 auto;
 }
 h1 {
-    font-size: 4vw;
+    font-size: 3rem;
 }
 h2 {
-    font-size: 3vw;
+    font-size: 2rem;
 }
 h3 {
-    font-size: 2vw;
+    font-size: 1.5rem;
+}
+a {
+    font-size: 1rem;
 }
 button {
     background-color: #b92727;
@@ -40,14 +43,13 @@ nav {
     padding: 2vh 0;
 }
 .logo-area img {
-    width: 8vw;
+    width: 8rem;
 }
 .menu-area a {
     text-decoration: none;
     margin: 0 15px;
     color: #fff;
     text-transform: uppercase;
-    font-size: 1vw;
 }
 .menu-area a:hover {
     color: #24a7ff;
@@ -221,3 +223,61 @@ nav {
     color: #fff;
 }
 
+/* Responsive CSS */
+@media(max-width: 768px){
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 3vh;
+    }
+    .menu-area a {
+        margin: 2vw;
+    }
+    .menu-area a:nth-child(5){
+        display: none;
+    }
+    .intro-area {
+        flex-direction: column;
+    }
+    .intro-content {
+        width: 80%;
+    }
+    .middle-top {
+        grid-template-columns: repeat(1, 100%);
+        padding: 3vh 0;
+    }
+    .middle-bottom {
+        flex-direction: column;
+        padding: 3vh 0;
+    }
+    .bottom-left,.bottom-right {
+        width: 100%;
+    }
+
+    .projects-intro {
+        flex-direction: column;
+        text-align: center;
+    }
+    .all-projects {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .project-dtl {
+        display: none;
+    }
+    .contact-intro {
+        flex-direction: column;
+        margin: 4vh 0;
+    }
+    .contact-heading {
+        width: 100%;
+    }
+    .contact-heading h1 {
+        font-size: 2rem;
+    }
+    .footer-area {
+        justify-content: center;
+    }
+    .footer-area .logo img {
+        width: 3rem;
+    }
+}
